@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Now</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/51d707e5d9.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/png" href="https://internship.thesparksfoundation.info/assests/img/logo.png">
+    <style>
+        body {
+            background-image: url('donate.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: orange;
+            /* background-color: white; */
+        }
+
+        .msg {
+            color: white;
+            font-size: 25px;
+            margin-left: 5px;
+
+        }
+
+        .msg h1 {
+            text-align: center;
+        }
+
+        .donatebtn {
+            margin-top: 400px;
+            margin-left: 750px;
+            height: 50px;
+            /* width: 1px; */
+        }
+
+        @media only screen and (max-width:500px) {
+
+            .donatebtn {
+                margin-left: 86px;
+            }
+
+            .msg {
+                color: rgb(206, 16, 16);
+            }
+
+            p {
+                font-weight: bold;
+                font-family: 'Rubik', sans-serif;
+            }
+
+            body {
+                /* background-color: blue; */
+                background: url('donate.jpg');
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                /* background-color: black; */
+
+                /* background-size: cover; */
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="backgroundimg">
+        <img src="donate.jpg" alt="">
+    </div> -->
+    <div class="msg">
+        <h1>You Can Bring a Change in someone's life</h1>
+        <p>Over the past years, our foundation has significantly contributed to the financial health of our organization
+            and to the continued successful operation of the services we provide. We see daily the positive effects of
+            such services, and we want you to know that your contributions have directly assisted the hungry and
+            homeless of our city, relieving much suffering and furthering a good cause.
+            The major project for the coming year is to construct a new shelter and food kitchen for the homeless and
+            hungry population in (Name of Neighborhood) neighborhood. Through our recent fundraising campaign, we have
+            raised just about half of the funds required to successfully complete the project. Considering the past
+            support and generosity of your foundation, we are writing today, therefore, to ask for a special show of
+            commitment to help us meet our financial goals.</p>
+    </div>
+    <div class="donatebtn">
+        <form>
+            <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_ILanu0GaslJanG"
+                async> </script>
+        </form>
+    </div>
+
+</body>
+
+</html>

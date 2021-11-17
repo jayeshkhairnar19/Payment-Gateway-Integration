@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(226, 233, 241, 0.767);
+}
+/* navbar */
+.nav #logo{
+    display: flex;
+    background-color: rgb(236, 165, 12);
+    color: white;
+}
+ 
+ #logo img{
+   height: 74px;
+   margin-top: 6px;
+}
+
+#logo ul{
+    display: flex;
+    list-style: none;
+    padding: 3px;
+   
+   
+}
+
+#logo ul li{
+    margin: 25px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+  
+    
+}
+
+#logo ul li a{
+   /* background-color: blue; */
+   /* background: 2px solid black; */
+   padding: 10px;
+   border-radius: 25px;
+   color: white;
+   text-decoration: none;
+}
+#logo ul li :hover{
+    background-color: white;
+    color: orange;
+    cursor: pointer;
+}
+
+/* slogan image about charity */
+.slogan{
+    display: flex;
+    margin-top: 8px;
+    margin-left: 50px;
+
+   
+}
+#sloganpara{
+    margin-top: 1px;
+    margin-left: 70px;
+    border: 2px solid red;
+    height: 461px;
+    width: 600px;
+    color: orange;
+    background-color: black;
+}
+
+#sloganpara h1{
+     font-family: 'Times New Roman', Times, serif; 
+     margin-left: 15px;
+     margin-top: 15px;
+     width: 500px;
+     text-align: center;
+     
+ }
+#sloganpara h2{
+    margin-top: 30px;
+     font-family: 'Times New Roman', Times, serif;
+     
+ }
+
+#btn{
+    padding: 30px;
+    margin-left: 200px;
+    margin-top: 100px;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: 20px;
+    width: 250px;
+    font-weight: bolder;
+
+}
+
+#btn:hover{
+    background-color: white;
+    color: orange;
+    border: 2px solid orange;
+    
+}
+
+/* About us */
+ .aboutus{
+    display: flex; 
+ }
+ 
+
+/* plant trees */
+#picture1{
+    margin-top: 15px;
+    margin-left: 5px;
+    border: 2px solid green;
+    border-radius: 20px;
+    background-color: green;
+    color:white;
+    width: 33%;
+}
+#picture1 img{
+    width: 100%;
+    border-radius: 20px;
+}
+/* flood donation */
+ 
+#picture2{
+    border: 2px solid green;
+    background-color: green;
+    width: 33%;
+    border-radius: 20px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#picture2 img{
+    width: 99%;
+    height: 330px;
+    border-radius: 20px;
+    margin-left: 3px;
+}
+
+/* Women Education */
+#picture3{
+    border: 2px solid green;
+    background-color: green;
+    width: 33%;
+    border-radius: 20px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#picture3 img{
+    width: 99%;
+    height: 330px;
+    border-radius: 20px;
+    margin-left: 3px;
+}
+
+/* footer */
+.footer{
+    /* border: 2px solid red; */
+    background-color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    height: 87px;
+    padding: 5px;
+    margin: 5px;
+
+    
+    
+}
+.logos{
+    padding: 5px;
+    margin-left: 5px;
+   
+}
+#a{
+    /* background-color: blue; */
+    padding: 7px;
+    background-color: rgb(11, 11, 221);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 5px;
+   
+   
+}
+#b{
+    /* background-color: blue; */
+    padding: 7px;
+    background-color: rgb(11, 11, 221);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 25px;
+   
+   
+}
+#c{
+    /* background-color: blue; */
+    padding: 12px;
+    background-color:rgb(230, 22, 56);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 25px;
+   
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: orange;
+}
+
+/* Responsive */
+@media only screen and (max-width:500px){
+    #logo ul{
+        flex-direction:column;
+       
+       
+    }
+    .slogan{
+        flex-direction: column;
+    
+       
+    }
+    .slogan img {
+        width: 109%;
+        padding: 24px;
+        margin-left: -64px;
+    }
+
+    .aboutus{
+        flex-direction: column;
+        width: 294%;
+     }
+     #sloganpara{
+    width: 105%;
+    padding: 9px;
+    margin-left: -43px;
+     }
+
+     #sloganpara h1{
+         display: flex;
+         flex-wrap: wrap;
+         width: 315px;
+     }
+     
+    #btn{
+        padding: 11px;
+        margin-left: 114px;
+        margin-top: 23px;
+        background-color:orange;
+        border-radius: 20px;
+        width: 190px;
+    }
+    #btn a{
+        color: white;
+    }
+     
+    
+}
+
+
+
+
+
+
+
+
